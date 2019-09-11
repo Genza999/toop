@@ -34,14 +34,17 @@ setup(
 
     keywords='python requests monitor',
 
-    packages=['xcubia', 'tests']
-
-    python_requires='!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4',
+    packages=['xcubia', 'tests'],
 
     package_data={
         'xcubia': ['xcubia.dat'],
     },
 
     scripts=['xcubia/bin/xcubia_script.py'],
+
+    install_requires=[
+        'requests',
+        'terminal-notifier'
+    ]
 
 )
