@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-# import sys
-# import os
-from xcubia import main
+import sys
+import os
+from toop import main
 
 
 if __name__ == "__main__":
