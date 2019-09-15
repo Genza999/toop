@@ -1,3 +1,3 @@
 # toop
 
-Toop is a python library that monitors the status of 's website on Mac
+Toop is a Python library that monitors that status of a site on Mac
