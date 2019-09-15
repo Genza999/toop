@@ -1,2 +1,3 @@
-# xcubia
-Python library to monitor the site connectivity
+# toop
+
+Toop is a python library that monitors the status of 's website on Mac
