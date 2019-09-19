@@ -6,7 +6,6 @@ main() module -- Entrypoint to the library
 
 import sys
 from toop import monitor
-from pyfiglet import Figlet
 from termcolor import cprint
 
 
@@ -27,7 +26,5 @@ def main():
     except ValueError:
         print("Please provide an integer as argument")
 
-    title = Figlet(font="slant")
-    cprint(title.renderText("toop toop toop :"), "blue", attrs=['bold'])
     monitor.monitor(website_url=url, interval=int(interval))
-    cprint("Pinging stopped", "blue")
+    cprint("Tooping stopped", "blue")
