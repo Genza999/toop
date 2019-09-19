@@ -16,7 +16,7 @@ with codecs.open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
 
 setup(
     name='toop',
-    version='0.1',
+    version='0.2',
     description='A Site Connectivity Checker for Mac',
     long_description=long_description,
     long_description_content_type='text/markdown',

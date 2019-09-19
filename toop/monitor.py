@@ -2,6 +2,8 @@ import requests
 import os
 import time
 from termcolor import cprint
+from pyfiglet import Figlet
+
 
 
 def monitor(website_url, interval):
@@ -17,6 +19,9 @@ def monitor(website_url, interval):
     :returns: A command line response and notification indicating the
             status of the site on each visit
     """
+    title = Figlet(font="slant")
+    cprint(title.renderText("toop toop toop :"), "blue", attrs=['bold'])
+
     for i in range(1, interval + 1):
         try:
             req = requests.get(website_url)
@@ -34,4 +39,4 @@ def monitor(website_url, interval):
             os.system(
                 'terminal-notifier {}'.format(' '.join([message, title])))
             cprint("========================================", "blue")
-            time.sleep(10)
+            time.sleep(10)  # sleep for 10 seconds before making next request
