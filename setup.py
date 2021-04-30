@@ -68,7 +68,7 @@ setup(
         'ruamel.yaml.clib==0.1.2',
         'six==1.12.0',
         'typed-ast==1.4.0',
-        'urllib3==1.25.3',
+        'urllib3==1.25.8',
         'wrapt==1.11.2',
         'termcolor==1.1.0',
         'pyfiglet==0.8.post1'
