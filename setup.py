@@ -53,7 +53,7 @@ setup(
         'appdirs==1.4.3',
         'astroid==2.2.5',
         'autopep8==1.4.4',
-        'certifi==2019.6.16',
+        'certifi==2022.12.7',
         'chardet==3.0.4',
         'idna==2.8',
         'isort==4.3.21',
